@@ -4,22 +4,22 @@ window.techno.config = {
 		author: {			
 				social: [
 					{ 
-						href: 'https://github.com/[YOUR ACCOUNT]',
+						href: 'https://github.com/lizportnoy',
 					  icon: 'fa-github',
 						title: 'Github'
 					},
 					{ 
-						href: 'https://twitter.com/[YOUR ACCOUNT]',
+						href: 'https://twitter.com/lizport10',
 					  icon: 'fa-twitter',
 						title: 'Twitter'
 					},
 					{ 
-						href: 'https://linkedin.com/[YOUR ACCOUNT]',
+						href: 'https://linkedin.com/pub/liz-portnoy/36/346/101',
 					  icon: 'fa-linkedin',
 						title: 'LinkedIn'
 					},
 					{ 
-						href: 'mailto:[YOUR EMAIL]',
+						href: 'mailto:lizport10@gmail.com',
 					  icon: 'fa-envelope',
 						title: 'Email'
 					},
@@ -33,16 +33,7 @@ window.techno.config = {
 		disqus: {
 				shortname: '[YOUR DISQUS SHORTNAME]'
 		},
-		google: {
-				analytics: function(ga) {
-					var account ='[YOUR GA ACCOUNT]';
-					var domain = '[YOUR GA DOMAIN]';
 
-					ga('create', account, domain);
-					//ga('require', 'displayfeatures');
-					ga('send', 'pageview');
-				}
-		},
 
 		menu: [
 				{ route: '', text: 'Home'},
